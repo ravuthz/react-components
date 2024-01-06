@@ -16,3 +16,11 @@ Example
 git submodule add --branch main --name ui-components -- https://github.com/ravuthz/react-components.git src/components/ui
 ```
 
+Clone or Pull with submodule
+```bash
+git pull --recurse-submodules
+git clone --recurse-submodules <remote.url>
+
+# Fixed module don't exists 
+git submodule update --init --recursive
+```
